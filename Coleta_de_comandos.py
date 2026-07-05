@@ -49,4 +49,3 @@ try:
 except KeyError:
     os.system('cls')
     print("O comando não existe")
-

@@ -24,7 +24,7 @@ for sensor in sensores:
             
         else:
             print(f"{chave} = {valor}")
-            relatorio[f'{chave}'] = valor
+            relatorio[chave] = valor
 
 
     # Não usei o set por que achei que do jeito que eu fiz talvez fosse mais prático,
